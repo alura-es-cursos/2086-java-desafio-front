@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(180.61deg,
+          #000000 25.16%,
+          #04254f 80%,
+          #409ecd 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5em;
+  height: 100vh;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  box-sizing: border-box;
+}
+
+main {
+  align-items: center;
+  height: 100%;
+  width: 150vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+  gap: 1em;
+}
+
+.header__opcoes {
+  font-size: 1.5vh;
+  display: flex;
+  gap: 1em;
+  padding: 0 1em;
+}
+
+.header__logo img {
+  width: 300px;
+  height: 100px;
+}
+
+.ficha img {
+  gap: 1em;
+  margin: 0 3em 2em 0;
+}
+
+.ficha-descripcion {
+  display: flex;
+}
+
+.ficha-descripcion div {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.text{
+  text-align: center;
+  color:  #000000 25.16%;
+  font-size: 2.5vh;
+  margin: 3vh 2vh;
+}
+
+.title{
+  text-align: center;
+  color: #00000080;
+  font-size: 3vh;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+p {
+  font-size: 22px;
+}
+
+.btn-sortear{
+  border-radius: 24px;
+  border: none;
+  outline: none;
+  width: 10%;
+  font-size: 24px;
+  padding: 0 1em;
+  margin-bottom: 1em;
+  background-color: #0077b6;
+  bottom: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 3vh;
+  line-height: 8vh;
+  position: absolute;
+  text-align: center;
+  transition: .3s;
+  width: 90%;
+}
+
+@media screen and (max-width: 900px) {
+
+  .ficha-descripcion {
+      display: block;
+  }
+}
