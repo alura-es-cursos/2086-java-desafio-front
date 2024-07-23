@@ -13,7 +13,7 @@ Una vez hecho esto, haz clic con el botón derecho en el archivo **index.html** 
 Inicialmente, si tu API aún no está desarrollada, el contenido que verás será el siguiente:
 
 
-![generador-de-frases-base-imagen](https://github.com/genesysR-dev/java-persistencia-de-datos-y-consultas-con-spring-data-jpa/assets/91544872/274cfdd4-a52f-4623-8b0f-a512bcdd25c1)
+![generador-de-frases-base-imagen](https://cdn1.gnarususercontent.com.br/6/103811/d428ddb0-1561-46b0-8843-079ce6759c03.png)
 
 
 Después de completar el desafío, tu proyecto estará completo y la aplicación mostrará los datos, de manera similar a lo siguiente:
